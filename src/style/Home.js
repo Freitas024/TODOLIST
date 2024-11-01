@@ -117,4 +117,10 @@ export const Ul = styled.ul`
     transform: rotate(-1.5deg);
     transition: all 0.3s cubic-bezier(0.25, 0.8, 0.25, 1);
   }
+
+  @media (width: 412px) {
+    li {
+      width: 90%;
+    }
+  }
 `;
